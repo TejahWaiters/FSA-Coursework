@@ -1,11 +1,26 @@
 .Painting {
-display: flex;
-justify-content: center;
-align-items: center;
+width: 100%;
+height: auto;
+position: relative;
+z-index: 1;
 }
 
-.form {
+.Form {
 display: flex;
 align-items: center;
 justify-content: center;
+margin-top: 20px;
+}
+
+.Overlay-Text {
+border-style: solid;
+border-color: black;
+position: absolute;
+left: 50px;
+top: 50px;
+z-index: 2;
+color: black;
+background-color: antiquewhite;
+padding: 10px;
+text-align: center;
 }
