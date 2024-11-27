@@ -6,11 +6,17 @@
  * 4)Code2 will be using subtraction
  * 5)Code 3 will be using multiplication
  * 6)Display the string and the codes to the user
+ *
  */
 
 
-const userMessage = "You have received this message because you have been chosen to open an important vault"
+const userMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination"
+/*
+create three different arithmetic operator to equal 10 - 40 - 39
+*/
 
-let code1 = 1 + 1
-let code2 = 10 - 5
-let code3 = 7* 3
+let code1 = 5 + 5
+let code2 = 50 - 10
+let code3 = 3 * 13
+
+alert(userMessage + "\n" + code1 + " " + code2 + " " + code3) 
