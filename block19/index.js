@@ -32,6 +32,6 @@ function showFreelancers() {
   });
 }
 
-function generateRandomFreelancer = 
+
 
 showFreelancers();
